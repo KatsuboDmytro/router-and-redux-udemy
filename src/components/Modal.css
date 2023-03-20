@@ -1,0 +1,25 @@
+.modal{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    opacity: .8;
+}
+.modal-content{
+    background-color: white;
+    margin: 200px auto;
+    height: 40%;
+    width: 50%;
+    text-align:justify;
+    padding: 20px;
+}
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper{
+    position: relative;
+    z-index: 1000;
+}
