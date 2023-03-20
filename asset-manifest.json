@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/router-and-redux-udemy/static/css/main.b8df941c.css",
+    "main.js": "/router-and-redux-udemy/static/js/main.67caa4ed.js",
+    "index.html": "/router-and-redux-udemy/index.html",
+    "main.b8df941c.css.map": "/router-and-redux-udemy/static/css/main.b8df941c.css.map",
+    "main.67caa4ed.js.map": "/router-and-redux-udemy/static/js/main.67caa4ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8df941c.css",
+    "static/js/main.67caa4ed.js"
+  ]
+}
