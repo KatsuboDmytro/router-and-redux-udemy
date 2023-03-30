@@ -17,21 +17,37 @@ const initialState = {
         },
     ],
     users:[],
+    modal: {
+      isOpen: false,
+    },
 }
 
 export const rootReducer = (state = initialState, action) => {
   console.log(action);
+
   switch (action.type) {
     case 'DELETE_CARD':
-      let newCard = state.cards.filter((card) => {
-        return action.id !== card.id;
-      });
+      let newCard = state.cards.filter((card) => action.id !== card.id);
       return{
         ...state,
         cards: newCard,
       };
+
     case 'FETCH_USERS':
       return{...state, users: action.payload};
+
+    case 'OPEN_MODAL':
+      return{...state,
+        modal: {
+          isOpen: true,
+        }};
+
+    case 'CLOSE_MODAL':
+      return{...state,
+        modal: {
+          isOpen: false,
+        }};
+
     default:
       return state;
   }

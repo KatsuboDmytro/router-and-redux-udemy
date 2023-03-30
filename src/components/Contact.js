@@ -12,7 +12,7 @@ const Contact = ({cards}) => {
         cards.map((card) => {
             return(
               <div key={card.id} className='ui raised very padded text container segment'>
-                <NavLink to={`/${card.title}`} className='ui header'>{card.title}</NavLink>
+                <NavLink to={`/router-and-redux-udemy/${card.title}`} className='ui header'>{card.title}</NavLink>
                 <p>{card.body}</p>
               </div>
             )

@@ -26,7 +26,7 @@ const Card = () => {
     const onButtonClick = () => {
         let id = card.id;
         dispatch({type:'DELETE_CARD', id});
-        navigate('/contact');
+        navigate('/router-and-redux-udemy/contact');
     }
 
     return users.map((user) => {

@@ -10,11 +10,11 @@ export const NavBar = () => {
 */
     return (
         <nav className='ui raised very padded segment' style={{marginBottom: '50px'}}>
-            <a className='ui teal inverted segment' href="/">Gloria</a>
+            <a className='ui teal inverted segment' href="/router-and-redux-udemy/">Gloria</a>
             <div className='ui right floated header'>
-                <button className='ui button'><Link to="/">Home</Link></button>
-                <button className='ui button'><NavLink to="/about">About</NavLink></button>
-                <button className='ui button'><NavLink to="/contact">Contact</NavLink></button>
+                <button className='ui button'><Link to="/router-and-redux-udemy/">Home</Link></button>
+                <button className='ui button'><NavLink to="/router-and-redux-udemy/about">About</NavLink></button>
+                <button className='ui button'><NavLink to="/router-and-redux-udemy/contact">Contact</NavLink></button>
             </div>
         </nav>
     )
